@@ -1,0 +1,32 @@
+/* src/components/LevelSelector.css */
+
+/* Styling for the entire level selector section */
+.level-selector {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adds some space above the section */
+}
+
+/* Styling for the levels container to flexibly arrange level buttons */
+.levels {
+    display: flex; /* Enables flex layout */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line if there's no space */
+    justify-content: center; /* Centers buttons in the container */
+}
+
+/* Basic styling for each level button */
+.level-button {
+    margin: 5px; /* Adds some space between buttons */
+    padding: 10px; /* Adds space inside the button */
+    font-size: 16px; /* Sets the font size of the button text */
+    border: none; /* Removes default border */
+    background-color: #4CAF50; /* Sets a green background color */
+    color: white; /* Sets the text color to white */
+    cursor: pointer; /* Changes cursor to pointer (hand) on hover */
+    border-radius: 5px; /* Rounds the button corners */
+    width: 60px; /* Sets a fixed width for each button */
+}
+
+/* Styling for the button when hovered */
+.level-button:hover {
+    background-color: #45a049; /* Slightly darker green for hover effect */
+}
